@@ -1,0 +1,96 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-family: Arial;
+}
+
+span{
+	color: navajowhite;
+}
+
+h3{
+	font-family: Cooper Black;
+	text-align: center;
+
+}
+
+li{
+	text-align: left;
+}
+
+div.a{
+	text-indent: 50px;
+	text-align: justify;
+}
+
+.slider{
+	overflow: hidden;
+	height: 400px;
+	width: 700px;
+}
+
+figure{
+	position: relative;
+	left: 0;
+	width: 400%;
+	animation: 20s slide infinite;
+}
+
+.slide{
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.slide img{
+	width: 100%;
+	height: 500px;
+}
+
+@keyframes slide{
+	0%{
+		left: 0;
+	}
+	8%{
+		left: 0;
+	}
+	16%{
+		left: -100%;
+	}
+	23%{
+		left: -100%;
+	}
+	31%{
+		left: -200%;
+	}
+	46%{
+		left: -200%;
+	}
+	54%{
+		left: -300%;
+	}
+	62%{
+		left: -300%;
+	}
+	69%{
+		left: -200%;
+	}
+	77%{
+		left: -200%;
+	}
+	84%{
+		left: -100%;
+	}
+	92%{
+		left: -100%;
+	}
+	99%{
+		left: 0%;
+	}
+	100%{
+		left: 0%;
+	}
+}
+
